@@ -8,10 +8,12 @@
 }
 
 body {
-  width: min(var(--max-width), 100% - var(--body-padding));
+  width: min(var(--max-width), calc(100% - var(--body-padding)));
   margin: 0 auto;
   color: var(--color-text);
   font-family: var(--font);
+  margin: 0 auto;
+  width: min(calc(100% - 2rem), 68ch);
 }
 
 footer {
